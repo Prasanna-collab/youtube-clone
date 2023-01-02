@@ -1,0 +1,44 @@
+.container {
+  flex: 0.8;
+}
+span.title {
+  font-size: 15px;
+  padding: 0px 20px;
+  line-height: 700;
+}
+span.channelname {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+span.views {
+  font-size: 12px;
+}
+span.timestamps {
+  font-size: 13px;
+}
+.time-description {
+  gap: 50px;
+}
+span.videos_duration {
+  top: 140px;
+  right: 20px;
+  background-color: transparent;
+  color: rgb(245, 241, 241);
+}
+img.channel_image.pointer {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+span.videos_duration.absolute {
+  font-size: 16px;
+}
+d-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.description_option {
+  padding-top: 10px;
+}
